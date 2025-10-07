@@ -1,6 +1,6 @@
 ﻿{
   "home": {
-    "welcome": "Bienvenido a OsitoPolar",
+    "welcome": "Bienvenido a FrostLink",
     "subtitle": "Gestión inteligente de equipos de refrigeración",
     "features": {
       "title": "Monitorea tus Equipos",
@@ -178,7 +178,7 @@
     "myAccount": "Mi Cuenta"
   },
   "footer": {
-    "company": "OsitoPolar",
+    "company": "FrostLink",
     "rights": "Todos los derechos reservados",
     "terms": "Términos y condiciones",
     "privacy": "Política de Privacidad",

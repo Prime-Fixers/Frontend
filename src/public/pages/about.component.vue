@@ -13,7 +13,7 @@ export default {
 <template>
   <div class="w-full">
     <h1>About Us</h1>
-    <p>OsitoPolar is a technology platform dedicated to intelligent management of refrigeration equipment.</p>
+    <p>FrostLink is a technology platform dedicated to intelligent management of refrigeration equipment.</p>
 
     <div class="mt-4">
       <h2>Our Mission</h2>

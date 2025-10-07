@@ -20,7 +20,7 @@ export default {
     <!-- Hero Section -->
     <div class="hero-section">
       <div class="hero-content">
-        <h1 class="hero-title">{{ $t('home.welcome') || 'Bienvenido a OsitoPolar' }}</h1>
+        <h1 class="hero-title">{{ $t('home.welcome') || 'Bienvenido a FrostLink' }}</h1>
         <p class="hero-subtitle">
           {{ $t('home.subtitle') || 'Gestión inteligente de equipos de refrigeración' }}
         </p>

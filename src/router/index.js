@@ -1,5 +1,5 @@
 ﻿/**
- * @fileoverview Router configuration for the OsitoPolar application
+ * @fileoverview Router configuration for the FrostLink application
  * Defines all routes and navigation behavior for the application
  */
 
@@ -93,7 +93,7 @@ const router = createRouter({
  */
 router.beforeEach((to, from, next) => {
     console.log(`Navigating from ${from.name} to ${to.name}`);
-    document.title = `OsitoPolar | ${to.meta.title}`;
+    document.title = `FrostLink | ${to.meta.title}`;
     next();
 });
 

@@ -195,20 +195,20 @@ export default {
 }
 
 .section-header:hover {
-  border-bottom-color: #0079c2;
+  border-bottom-color: var(--color-primary);
 }
 
 .section-header:hover .section-title {
-  color: #0079c2;
+  color: var(--color-primary);
 }
 
 .section-header:hover i {
   transform: translateX(5px);
-  color: #0079c2;
+  color: var(--color-primary);
 }
 
 .section-title {
-  color: #0079c2;
+  color: var(--color-primary);
   font-size: 2rem;
   font-weight: 600;
   margin: 0;
@@ -217,7 +217,7 @@ export default {
 
 .section-header i {
   font-size: 1.5rem;
-  color: #666;
+  color: var(--text-secondary);
   transition: all 0.2s ease;
 }
 
@@ -234,7 +234,7 @@ export default {
 .equipment-card {
   background: white;
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow-primary);
   overflow: hidden;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -243,14 +243,14 @@ export default {
 
 .equipment-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
-  border-color: #0079c2;
+  box-shadow: var(--shadow-primary-hover);
+  border-color: var(--color-primary);
 }
 
 .card-image {
   position: relative;
   height: 200px;
-  background: #f8f9fa;
+  background: var(--color-primary-background);
   overflow: hidden;
 }
 
@@ -281,7 +281,7 @@ export default {
 }
 
 .status-indicator.critical {
-  background-color: #F44336;
+  background-color: var(--color-error);
 }
 
 .availability-badge {
@@ -304,7 +304,7 @@ export default {
 .equipment-name {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #333;
+  color: var(--text-primary);
   margin: 0 0 0.5rem 0;
   line-height: 1.3;
 }
@@ -312,7 +312,7 @@ export default {
 .equipment-type,
 .equipment-model {
   font-size: 0.9rem;
-  color: #666;
+  color: var(--text-secondary);
   margin: 0 0 1rem 0;
 }
 
@@ -325,7 +325,7 @@ export default {
 .current-temp {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #0079c2;
+  color: var(--color-primary);
 }
 
 .price-info {

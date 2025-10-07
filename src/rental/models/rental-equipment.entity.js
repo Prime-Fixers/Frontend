@@ -1,6 +1,6 @@
 ﻿/**
  * @class RentalEquipment
- * @description Equipment available for rent from OsitoPolar
+ * @description Equipment available for rent from FrostLink
  */
 export class RentalEquipment {
     constructor({

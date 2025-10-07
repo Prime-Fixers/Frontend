@@ -37,9 +37,15 @@ export default {
 }
 
 h1 {
-  color: #0079c2;
+  color: var(--color-primary);
   text-align: center;
   margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 @media (max-width: 768px) {

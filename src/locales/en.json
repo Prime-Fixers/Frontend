@@ -1,6 +1,6 @@
 ﻿{
   "home": {
-    "welcome": "Welcome to OsitoPolar",
+    "welcome": "Welcome to FrostLink",
     "subtitle": "Smart refrigeration equipment management",
     "features": {
       "title": "Monitor Your Equipment",
@@ -178,7 +178,7 @@
     "myAccount": "My Account"
   },
   "footer": {
-    "company": "OsitoPolar",
+    "company": "FrostLink",
     "rights": "All rights reserved",
     "terms": "Terms and Conditions",
     "privacy": "Privacy Policy",

@@ -1,6 +1,6 @@
 ﻿import axios from 'axios';
 
-const baseURL = import.meta.env.VITE_API_BASE_URL || 'https://ositopolar-platform.onrender.com/api/v1';
+const baseURL = import.meta.env.VITE_API_BASE_URL || 'https://FrostLink-platform.onrender.com/api/v1';
 const httpInstance = axios.create({
     baseURL: baseURL,
     headers: {
